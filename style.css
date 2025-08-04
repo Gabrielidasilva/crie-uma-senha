@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+:root{
+    --branco:white;
+    --cor-de-fundo:#3131ad;
+    --fundo-senha:#3576cb;
+    --fundo-texto:#080551;
+    --borda:#0b0326;
+    --fonte-principal:'Share Tech e Display'
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--branco);
+}
+.conteudo-titul0{
+    text-align: center;
+}
+*{
+    font-weight: 400;
+}
+.conteudo-senha{
+    margin-top: 80px;
+    background-color: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
