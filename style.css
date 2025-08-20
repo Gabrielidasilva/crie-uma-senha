@@ -5,7 +5,7 @@
     --fundo-senha:#3576cb;
     --fundo-texto:#080551;
     --borda:#0b0326;
-    --fonte-principal:'Share Tech e Display'
+    --fonte-principal:'Archivo, Black e family'
 }
 body{
     background-color: var(--cor-de-fundo);
