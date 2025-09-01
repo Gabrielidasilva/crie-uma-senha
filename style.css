@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 :root{
     --branco:white;
     --cor-de-fundo:#3131ad;
     --fundo-senha:#3576cb;
     --fundo-texto:#080551;
     --borda:#0b0326;
-    --fonte-principal:'Archivo Black family'
+    --fonte-principal:'Press Star 2P&display'
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -92,4 +92,39 @@ label{
     .parametro-coluna-senha{
         flex-direction: row;
     }
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #822d2d;
+    position: relative;
+    bottom: 30px;
+}
+.media{
+    height: 30px;
+    width: 50%;
+    background-color: #c8d41c;
+    position: relative;
+    bottom: 30px;
+}
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color: #3d8d3e;
+    position: relative;
+    bottom: 30px;
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
