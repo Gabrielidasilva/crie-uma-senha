@@ -2,7 +2,7 @@
 :root{
     --branco:white;
     --cor-de-fundo:#3131ad;
-    --fundo-senha:#3576cb;
+    --fundo-senha:#15f44c;
     --fundo-texto:#080551;
     --borda:#0b0326;
     --fonte-principal:'Bitcount Prop Single';
@@ -106,7 +106,7 @@ label{
 .fraca{
     height: 30px;
     width: 25%;
-    background-color: #822d2d;
+    background-color: #15f44c;
     position: relative;
     bottom: 30px;
 }
